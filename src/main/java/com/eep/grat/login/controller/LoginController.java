@@ -1,8 +1,8 @@
-package com.eep.gratLogin.controller;
+package com.eep.grat.login.controller;
 
 
-import com.eep.model.LoginUser;
-import com.eep.model.User;
+import com.eep.login.model.LoginUser;
+import com.eep.login.model.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
