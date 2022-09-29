@@ -1,4 +1,4 @@
-package com.eep.login.model;
+package com.eep.grat.login.model;
 
 public class User {
 
