@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class ProfileController {
     @PostMapping("stub/profile")
     public String createProfile(@RequestBody Profile newProfile){
+        System.out.println("request for new profile creation {}" + newProfile.toString());
         return "P00001";
     }
     @GetMapping("stub/profile/{profileid}")
