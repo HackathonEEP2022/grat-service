@@ -1,4 +1,4 @@
-package com.eep.grat.controller;
+package com.eep.grat;
 
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.GetMapping;
